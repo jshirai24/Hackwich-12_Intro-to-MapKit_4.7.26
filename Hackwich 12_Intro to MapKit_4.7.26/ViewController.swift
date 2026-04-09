@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         //add our first resturant annotation to the map
         let resturantOne = resturantObject(title: "Kalapawai", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.346470, longitude: -158.080098))
         //add our second resturant annotation to the map
-        let resturantTwo = resturantTwoObject(title: "Island Shave Ice and Creamery", type: "Desserts", coordinate: CLLocationCoordinate2D(latitude: 21.3321546,  longitude: -158.083358))
+        let resturantTwo = resturantTwoObject(title: "Island Shave Ice and Creamery", type: "Desserts", coordinate: CLLocationCoordinate2D(latitude: 21.332154,  longitude: -158.08333))
         
         mapView.addAnnotation(resturantOne)
         mapView.addAnnotation(resturantTwo)
